@@ -6,6 +6,8 @@ $color-grey-dark: #777;
 $color-white: #fff;
 $color-black: #000;
 
+//test
+
 *,
 *::after,
 *::before {
@@ -186,7 +188,7 @@ body {
         z-index: -1;
         transition: all .4s;
     }
-    
+
     &--animated {
         animation: moveInBottom 1s ease-out .75s;
         animation-fill-mode: backwards;
