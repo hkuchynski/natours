@@ -2,7 +2,6 @@
     //1rem = 10px
     //the width will be 114rem, but if it get smaller than 114rem it will take 100% of the availabale space
     max-width: 114rem;
-    background-color: #eee;
     margin: 0 auto;
     
     &:not(:last-child) {
@@ -13,7 +12,6 @@
 
     //this will select all the elements in which the class starts with "col-"
     [class^="col-"] {
-        background-color: orangered;
         //with float: left the height of the row will be 0, as its children are all floated
         //to fix it use clearfix 
         float: left;
