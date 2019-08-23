@@ -9,6 +9,7 @@
   "author": "Hanna Nekhniadovich",
   "license": "ISC",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
     "node-sass": "^4.12.0"
   }
 }
