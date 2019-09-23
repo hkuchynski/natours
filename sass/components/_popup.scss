@@ -33,6 +33,14 @@
     &__left {
         width: 33.33333333%;
         display: table-cell;
+
+        @media only screen and (max-width: 94em) { 
+            width: 40%;
+        } 
+
+        @include respond(tab-land) {
+            display: table-row;
+        }
     }
 
     &__right {
@@ -40,11 +48,27 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @media only screen and (max-width: 94em) { 
+            width: 60%;
+        } 
+
+        // @include respond(tab-port) {
+        //     display: table-row;
+        //     margin: 5rem;
+        // }
     }
 
     &__img {
         display: block;
         width: 100%;
+
+        @include respond(tab-land) {
+            display: inline;
+            background-size: cover;
+            width: 50%;
+            height: 25%;
+        }
     }
 
     &__text {

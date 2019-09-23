@@ -562,14 +562,29 @@ body {
   .popup__left {
     width: 33.33333333%;
     display: table-cell; }
+    @media only screen and (max-width: 94em) {
+      .popup__left {
+        width: 40%; } }
+    @media only screen and (max-width: 75em) {
+      .popup__left {
+        display: table-row; } }
   .popup__right {
     width: 66.66666667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media only screen and (max-width: 94em) {
+      .popup__right {
+        width: 60%; } }
   .popup__img {
     display: block;
     width: 100%; }
+    @media only screen and (max-width: 75em) {
+      .popup__img {
+        display: inline;
+        background-size: cover;
+        width: 50%;
+        height: 25%; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
