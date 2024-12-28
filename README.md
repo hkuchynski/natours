@@ -1,6 +1,6 @@
 ## Natours
 
-> This is a one-page landing site of a company that offers tours in the nature. Design cretdit to Jonas Schmedtmann.
+> This is a one-page landing site of a company that offers tours in the nature. Design credit to Jonas Schmedtmann.
 
 ## Featuring:
 
